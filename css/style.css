@@ -498,11 +498,9 @@ body.dark-theme {
   /* align-items: center; */
 }
 
-/* .img3{
-  height: 120px;
-  width: 50%;
-  display: inline-block;
-} */
+.img3{
+  margin-top: -4%;
+}
 
 .image{
     width: 150px;
@@ -530,9 +528,13 @@ body.dark-theme {
     border: 1px solid rgba(0, 0, 0, 0.1);    
 }
 
-.row1{
-    display: flex;
-    justify-content: space-between;
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .cont1 .card:hover{
@@ -851,7 +853,9 @@ body.dark-theme {
   .skills__container {
     padding-top: 2rem;
   }
- 
+  .row2{
+      
+  }
 }
 
 /* For large devices */
