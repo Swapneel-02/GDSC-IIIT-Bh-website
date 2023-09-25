@@ -530,7 +530,13 @@ body.dark-theme {
 
 .row1,
 .row2,
-.row3 {
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.row9 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -884,4 +890,17 @@ body.dark-theme {
 
 .hidden{
    opacity: 0;
+}
+
+.change-dark-mode-ico-color {
+  color: rgb(180, 14, 14);
+}
+
+.associates {
+  width: 250px;
+}
+
+.long-text {
+  font-size: 1rem;
+  font-weight: 510;
 }
